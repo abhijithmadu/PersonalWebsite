@@ -28,6 +28,7 @@ if($registrationForm.length){
         
           phone: {
               required: true,
+              minlenth:10,
               maxlength:10,
               numeric:true,
               noSpace: true
