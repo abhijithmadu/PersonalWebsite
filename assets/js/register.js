@@ -50,7 +50,8 @@ if($registrationForm.length){
           },
        
           phone: {
-              required: 'Please enter phone number!'
+              required: 'Please enter phone number!',
+              minlength:'please enter 10 digit numbers'
           },
         
           address: {
